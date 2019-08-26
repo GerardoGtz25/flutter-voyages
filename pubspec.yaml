@@ -75,6 +75,10 @@ flutter:
     - assets/img/profile1.jpg
     - assets/img/profile2.jpg
     - assets/img/profile3.jpg
+    - assets/img/landscape2.jpg
+    - assets/img/landscape3.jpg
+    - assets/img/landscape4.jpg
+    - assets/img/landscape5.jpg
   fonts:
     - family: Lato
       fonts:
