@@ -44,9 +44,9 @@ class PlatziTripsCupertino extends StatelessWidget {
                 builder: (BuildContext context) => ProfileTrips(),
               );
               break;
-            default:
-              return null;
+
           }
+
         },
       ),
     );
