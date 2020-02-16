@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'floating_action_button_green.dart';
+import 'package:flutter_course/widgets/floating_action_button_green.dart';
 
 class  CardImage extends StatelessWidget {
 
@@ -9,8 +9,6 @@ class  CardImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-
     final card = Container(
       height: 350.0,
       width: 250.0,

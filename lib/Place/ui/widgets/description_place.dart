@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'button_purple.dart';
+import 'package:flutter_course/widgets/button_purple.dart';
 
 class DescriptionPlace extends StatelessWidget {
 
@@ -9,12 +9,8 @@ class DescriptionPlace extends StatelessWidget {
 
   DescriptionPlace(this.namePlace, this.stars, this.descriptionPlace);
 
-
-
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-
     final star_half = Container (
       margin: EdgeInsets.only(
           top: 353.0,
@@ -69,7 +65,6 @@ class DescriptionPlace extends StatelessWidget {
             ),
             textAlign: TextAlign.left,
           ),
-
         ),
 
         Row(
@@ -81,8 +76,6 @@ class DescriptionPlace extends StatelessWidget {
             star_half
           ],
         )
-
-
       ],
     );
 
@@ -101,7 +94,6 @@ class DescriptionPlace extends StatelessWidget {
             fontWeight: FontWeight.bold,
             color: Color(0xFF56575a)
         ),
-
       ),
     );
 
@@ -113,8 +105,5 @@ class DescriptionPlace extends StatelessWidget {
         ButtonPurple("Navigate")
       ],
     );
-
-
   }
-
 }

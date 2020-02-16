@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'home_trips.dart';
-import 'search_trips.dart';
-import 'profile_trips.dart';
+import 'package:flutter_course/Place/ui/screens/home_trips.dart';
+import 'package:flutter_course/Place/ui/screens/search_trips.dart';
+import 'package:flutter_course/User/ui/screens/profile_trips.dart';
 
 class PlatziTripsCupertino extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return Scaffold(
       bottomNavigationBar: CupertinoTabScaffold(
         tabBar: CupertinoTabBar(

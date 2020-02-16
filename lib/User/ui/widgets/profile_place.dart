@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'place.dart';
+import 'package:flutter_course/Place/model/place.dart';
 import 'profile_place_info.dart';
-import 'profile_place.dart';
 
 class ProfilePlace extends StatelessWidget {
 
@@ -44,5 +43,4 @@ class ProfilePlace extends StatelessWidget {
       ],
     );
   }
-
 }

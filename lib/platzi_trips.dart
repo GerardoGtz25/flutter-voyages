@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-import 'home_trips.dart';
-import 'search_trips.dart';
-import 'profile_trips.dart';
+import 'package:flutter_course/Place/ui/screens/home_trips.dart';
+import 'package:flutter_course/Place/ui/screens/search_trips.dart';
+import 'package:flutter_course/User/ui/screens/profile_trips.dart';
 
 class PlatziTrips extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    // TODO: implement createState
     return _PlatziTrips();
   }
 
@@ -30,9 +29,6 @@ class _PlatziTrips extends State<PlatziTrips> {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-
-
     return
 
       Scaffold(
@@ -63,5 +59,4 @@ class _PlatziTrips extends State<PlatziTrips> {
       ),
     );
   }
-
 }

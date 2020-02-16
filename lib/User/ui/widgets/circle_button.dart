@@ -12,14 +12,11 @@ class CircleButton extends StatefulWidget {
   State<StatefulWidget> createState() {
     return _CircleButton();
   }
-
 }
 
 class _CircleButton extends State<CircleButton> {
 
-  void onPressedButton() {
-
-  }
+  void onPressedButton() {}
 
   @override
   Widget build(BuildContext context) {

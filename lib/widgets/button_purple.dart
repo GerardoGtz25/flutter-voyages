@@ -9,7 +9,6 @@ class ButtonPurple extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return InkWell(
       onTap: () {
         Scaffold.of(context).showSnackBar(
@@ -50,12 +49,9 @@ class ButtonPurple extends StatelessWidget {
               fontFamily: "Lato",
               color: Colors.white
             ),
-
           ),
         ),
-
       ),
     );
   }
-
 }
