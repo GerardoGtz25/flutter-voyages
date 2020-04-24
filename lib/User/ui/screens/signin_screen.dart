@@ -27,7 +27,7 @@ class _SignInScreen extends State<SignInScreen> {
     return StreamBuilder(
       stream: userBloc.authStatus,
       builder: (BuildContext context, AsyncSnapshot snapshot) {
-        //
+        
         if(!snapshot.hasData || snapshot.hasError) {
           return signInGoogleUI();
         } else {

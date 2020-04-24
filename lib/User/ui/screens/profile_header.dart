@@ -3,6 +3,7 @@ import 'package:flutter_course/User/ui/widgets/user_info.dart';
 import 'package:flutter_course/User/ui/widgets/button_bar.dart';
 
 class ProfileHeader extends StatelessWidget {
+  
   @override
   Widget build(BuildContext context) {
     final title = Text(
