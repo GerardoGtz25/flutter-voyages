@@ -1,8 +1,19 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_course/User/model/user.dart';
 class Place {
+  String id;
   String name;
-  String where;
-  String type;
-  String steps;
+  String description;
+  String urlImage;
+  int likes;
+  User userOwner;
 
-  Place(this.name, this.where, this.type, this.steps);
+  Place({
+    Key key,
+    @required this.name,
+    @required this.description,
+    @required this.urlImage,
+    @required this.userOwner,
+    this.likes,
+  });
 }
